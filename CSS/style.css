@@ -13,6 +13,7 @@
     align-items: center;
 }
 
+/* Main Logo Box */
 .nav-logo {
     height: 50px;
     width: 100px;
@@ -34,8 +35,9 @@
     border: solid 1px white;
 }
 
+/* Location Box */
 
-.nav-location-icon{
+.nav-location-icon {
     display: flex;
     align-items: baseline;
 }
@@ -51,4 +53,38 @@
     font-size: 0.9rem;
     font-weight: bolder;
     margin-left: 3.5px;
+}
+
+/* Search Box */
+.nav-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    width: 800px;
+    height: 2rem;
+    background-color: pink;
+    border-radius: 0.25rem;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    color: #333333;
+    background-color: #F3A847;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.search-select{
+    height: 2rem;
+    border: transparent;
+    border-radius: 0.25rem 0 0 0.25rem
+}
+
+.search-input{
+    height: 2rem;
+    border: transparent;
 }
