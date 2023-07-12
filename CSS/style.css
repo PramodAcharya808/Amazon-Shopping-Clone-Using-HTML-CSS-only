@@ -145,10 +145,15 @@
 .sub-ops p{
     display: flex;
     align-items: center;
-    height: 39px;
+    height: 40px;
     margin-left: 10px;
 }
 
 .sub-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35px;
+    height: 40px;
     margin-left: 10px;
 }
