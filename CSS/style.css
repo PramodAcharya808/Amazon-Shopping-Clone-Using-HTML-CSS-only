@@ -4,12 +4,14 @@
     border: border-box;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* MAIN NAVBAR */
 
 .navbar {
     height: 60px;
+    width: 100%;
     background-color: #131921;
     color: white;
     display: flex;
@@ -134,6 +136,7 @@
     display: flex;
     align-items: center;
     height: 39px;
+    width: 100%;
     color: white;
     background-color: #232F3D;
 }
@@ -141,7 +144,6 @@
 .sub-ops {
     display: flex;
     align-items: center;
-    justify-content: ;
 }
 
 .sub-ops p {
@@ -204,7 +206,8 @@
     background-color: white;
     width: 350px;
     height: 400px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: bold;
 
@@ -339,5 +342,17 @@
     transition: all 0.5s ease-out;
 }
 
+
+/* Back to top section */
+.btt .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #425061;
+    font-size: 0.9rem;
+}
 
 /* Footer Box (Main) */
