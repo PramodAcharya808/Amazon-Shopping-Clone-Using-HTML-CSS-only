@@ -130,26 +130,28 @@
 }
 
 /* SUB NAVBAR */
-.sub-nav{
+.sub-nav {
     display: flex;
     align-items: center;
     height: 39px;
     color: white;
     background-color: #232F3D;
 }
-.sub-ops{
+
+.sub-ops {
     display: flex;
     align-items: center;
     justify-content: ;
 }
-.sub-ops p{
+
+.sub-ops p {
     display: flex;
     align-items: center;
     height: 40px;
     margin-left: 10px;
 }
 
-.sub-all{
+.sub-all {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,7 +161,7 @@
 }
 
 /* HERO SECTIOn */
-.hero-section{
+.hero-section {
     display: flex;
     justify-content: center;
     background-image: url("../Img/hero_image.jpg");
@@ -168,7 +170,7 @@
     align-items: flex-end;
 }
 
-.info-bar{
+.info-bar {
     margin-bottom: 40px;
     display: flex;
     align-items: center;
@@ -179,6 +181,163 @@
     background-color: white;
 }
 
-.info-bar a{
+.info-bar a {
     color: blue;
 }
+
+/* Add section (Main) */
+
+.procuct-adds {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: #dbdcdc;
+}
+
+/* ADD - 1 */
+.add-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.add1-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box5_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add1-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+.botm-info {
+    padding: 10px;
+    font-size: 0.9rem;
+    color: blue;
+}
+
+.info {
+    padding: 10px;
+}
+
+/* ADD - 2 */
+.add2-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box3_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add2-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+/* ADD - 3 */
+.add3-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box9_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add3-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+/* ADD - 4 */
+.add4-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box10_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add4-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+/* ADD - 5 */
+.add5-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box4_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add5-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+/* ADD - 6 */
+.add6-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box8_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add6-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+/* ADD - 7 */
+.add7-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box2_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add7-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+/* ADD - 8 */
+.add8-img {
+    width: 300px;
+    height: 320px;
+    background-image: url(../Img/box7_image.jpg);
+    background-size: cover;
+    align-self: center;
+    border-radius: 2%;
+}
+
+.add8-img:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease-out;
+}
+
+
+/* Footer Box (Main) */
