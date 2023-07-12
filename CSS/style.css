@@ -10,6 +10,7 @@
     background-color: #131921;
     color: white;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -56,15 +57,18 @@
 }
 
 /* Search Box */
-.nav-search {
+.nav-search{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 10px;
     width: 800px;
     height: 2rem;
-    background-color: pink;
     border-radius: 0.25rem;
+}
+
+.nav-search:hover{
+    border: solid 2px #F3A847;
 }
 
 .search-icon {
@@ -72,13 +76,15 @@
     justify-content: center;
     align-items: center;
     height: 2rem;
-    width: 2rem;
+    width: 3rem;
     color: #333333;
     background-color: #F3A847;
     border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .search-select{
+    text-align: center;
+    width: 4rem;
     height: 2rem;
     border: transparent;
     border-radius: 0.25rem 0 0 0.25rem
@@ -87,4 +93,35 @@
 .search-input{
     height: 2rem;
     border: transparent;
+    width: 100%;
+}
+
+/* Sign in box Box 4 */
+.sign-first{
+    font-size: 0.8rem;
+}
+
+.sign-second{
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+/* Order box 5 */
+.order-first{
+    font-size: 0.8rem;
+}
+
+.order-second{
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+/* cart box 6 */
+.nav-cart i{
+    font-size: 2rem;
+}
+
+.nav-cart span{
+    font-size: o.9rem;
+    font-weight: bolder;
 }
