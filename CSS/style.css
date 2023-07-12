@@ -164,17 +164,21 @@
     justify-content: center;
     background-image: url("../Img/hero_image.jpg");
     background-size: cover;
-    height: 600px;
-
+    height: 350px;
+    align-items: flex-end;
 }
 
 .info-bar{
-    position: relative;
-    top: 45%;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 35px;
     width: 97%;
+    font-size: 0.9rem;
     background-color: white;
+}
+
+.info-bar a{
+    color: blue;
 }
