@@ -355,4 +355,24 @@
     font-size: 0.9rem;
 }
 
+.back:hover{
+    background-color: #5a6b81;
+}
+
 /* Footer Box (Main) */
+.foot-first{
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    background-color: #232F3E;
+    line-height: 180%;
+}
+
+.foot-first .info{
+    padding: 2% 5% 0 0;
+}
+
+.info p{
+    font-size: 0.85rem;
+}
