@@ -130,3 +130,25 @@
 }
 
 /* SUB NAVBAR */
+.sub-nav{
+    display: flex;
+    align-items: center;
+    height: 39px;
+    color: white;
+    background-color: #232F3D;
+}
+.sub-ops{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+.sub-ops p{
+    display: flex;
+    align-items: center;
+    height: 39px;
+    margin-left: 10px;
+}
+
+.sub-all{
+    margin-left: 10px;
+}
