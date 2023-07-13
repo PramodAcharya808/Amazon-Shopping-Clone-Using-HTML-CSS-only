@@ -453,3 +453,16 @@ option{
 }
 
 /* Developer Info */
+@keyframes hearts{
+    form{transform:scale(0);}
+    to{transform:scale(1.5);}
+}
+.myinfo{
+    height: 100px;
+    color: white;
+    background-color: #232F3E;
+}
+.fa-heart{
+    padding: 0 2px 0 2px;
+    animation: hearts 0.5s ease-in-out infinite alternate;
+}
