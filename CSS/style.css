@@ -417,3 +417,17 @@ option{
     justify-content: center;
     align-items: center;
 }
+
+.second-country{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 20% 25% 20%; 
+    color: white;
+    font-size: 0.85rem;
+}
+
+.second-country p{
+    margin: 10px 10px 0 10px;
+}
