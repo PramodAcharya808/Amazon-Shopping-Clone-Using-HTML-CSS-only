@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -458,11 +460,38 @@ option{
     to{transform:scale(1.5);}
 }
 .myinfo{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
     height: 100px;
     color: white;
     background-color: #232F3E;
 }
+.myinfo p{
+    font-size: 1.2rem;
+    font-family: Source Code Pro;
+    padding-top: 10px;
+}
 .fa-heart{
     padding: 0 2px 0 2px;
     animation: hearts 0.5s ease-in-out infinite alternate;
+}
+
+.pramod #pramod, a{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.pramod{
+    display: inline-block;
+    width: 400px;
+    margin-top: 1%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.pramod:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out ;
 }
