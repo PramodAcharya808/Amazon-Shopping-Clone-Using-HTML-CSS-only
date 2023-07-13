@@ -6,6 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
+option{
+    color: black;
+}
 
 /* MAIN NAVBAR */
 
@@ -385,8 +388,32 @@
 }
 
 .footer-amazon{
-    height: 30px;
-    width: 76px;
+    height: 35px;
+    width: 81px;
     background-image: url(../Img/amazon_logo.png);
     background-size: cover;
+    margin-right: 4%;
+}
+
+.second-select select{
+    background-color: transparent;
+    color:white;
+    border: none;
+    padding: 0 0 0 5px;
+}
+
+.second-select {
+    display: flex;
+    align-items: center;
+    color:white;
+    border: solid 1px white;
+    width: 100px;
+    height: 25px;
+}
+
+.second-lang{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
