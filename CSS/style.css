@@ -376,3 +376,17 @@
 .info p{
     font-size: 0.85rem;
 }
+
+/* second footer */
+.second-foot-box{
+    height: 150px;
+    margin: 0.2px;
+    background-color: #232F3E;
+}
+
+.footer-amazon{
+    height: 30px;
+    width: 76px;
+    background-image: url(../Img/amazon_logo.png);
+    background-size: cover;
+}
